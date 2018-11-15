@@ -10,5 +10,10 @@
 <h1> There is a message for you!</h1>
 <h:outputText value="#{userBean.printMsgFromSpring()}"/>
 
+<h:form>
+<h:outputText value="vuoi consultare il parco auto?"></h:outputText>
+<h:commandButton value="consulta" action="parcoAuto"></h:commandButton>
+<h:commandButton value="no, grazie" action="arrivederci"></h:commandButton>
+</h:form>
 </h:body>
 </html>
